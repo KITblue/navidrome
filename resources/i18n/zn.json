@@ -22,9 +22,9 @@
                 "starred": "收藏"
             },
             "actions": {
-                "addToQueue": "最后播放",
+                "addToQueue": "加入播放队列",
                 "playNow": "立即播放",
-                "addToPlaylist": "加入播单",
+                "addToPlaylist": "收藏到歌单",
                 "shuffleAll": "全部播放",
                 "download": "下载"
             }
@@ -45,10 +45,10 @@
             },
             "actions": {
                 "playAll": "立即播放",
-                "playNext": "接下来播放",
-                "addToQueue": "最后播放",
+                "playNext": "下一首播放",
+                "addToQueue": "加入播放队列",
                 "shuffle": "随机播放",
-                "addToPlaylist": "加入播单",
+                "addToPlaylist": "加入歌单",
                 "download": "下载"
             },
             "lists": {
@@ -102,7 +102,7 @@
             }
         },
         "playlist": {
-            "name": "播单 |||| 播单",
+            "name": "歌单 |||| 歌单",
             "fields": {
                 "name": "名称",
                 "duration": "时长",
@@ -111,12 +111,12 @@
                 "updatedAt": "更新于",
                 "createdAt": "创建于",
                 "songCount": "歌曲数",
-                "comment": "评论",
+                "comment": "说明",
                 "sync": "同步",
                 "path": "路劲"
             },
             "actions": {
-                "selectPlaylist": "选择播单",
+                "selectPlaylist": "选择歌单",
                 "addNewPlaylist": "新建 %{name}",
                 "export": "导出"
             }
@@ -190,7 +190,7 @@
             "loading": "加载中",
             "not_found": "未发现",
             "show": "%{name} #%{id}",
-            "empty": "空白 %{name}.",
+            "empty": "空白%{name}",
             "invite": "您要创建一个吗？"
         },
         "input": {
@@ -241,7 +241,7 @@
         },
         "notification": {
             "updated": "项已更新 |||| %{smart_count} 项已更新",
-            "created": "项已新建",
+            "created": "项已创建",
             "deleted": "项已删除 |||| %{smart_count} 项已删除",
             "bad_item": "不正确的项",
             "item_doesnt_exist": "项不存在",
@@ -262,7 +262,7 @@
         "delete_user_content": "您确定要删除该用户及其相关数据（包括其播放列表和首选项）吗？"
     },
     "menu": {
-        "library": "曲库",
+        "library": "歌曲库",
         "settings": "设置",
         "version": "版本 %{version}",
         "theme": "主题",
