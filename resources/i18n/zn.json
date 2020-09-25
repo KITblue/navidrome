@@ -235,7 +235,7 @@
             "page_out_from_end": "已到最末页",
             "page_out_from_begin": "已到最前页",
             "page_range_info": "%{offsetBegin}-%{offsetEnd} / %{total}",
-            "page_rows_per_page": "每页数目:",
+            "page_rows_per_page": "每页项数:",
             "next": "向后",
             "prev": "向前"
         },
